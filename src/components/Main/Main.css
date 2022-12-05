@@ -2,3 +2,13 @@
   background-color: #1A1A1D;
   min-height: 850px;
 }
+
+.main__button {
+  border-radius: 10px;
+  min-width: 200px;
+  min-height: 100px;
+}
+
+.main__button:hover {
+  background-color: antiquewhite;
+}

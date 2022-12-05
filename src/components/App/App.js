@@ -6,14 +6,16 @@ import Footer from "../Footer/Footer";
 
 function App() {
 
-  // function a() {
+  function handleKeys() {
 
-  // }
+  }
 
   return (
     <div className="App">
       <Header></Header>
-      <Main></Main>
+      <Main>
+        handleKeys={handleKeys}
+      </Main>
       <Footer></Footer>
         {/* <Switch>
           <Route exact path="/">
