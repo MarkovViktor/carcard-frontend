@@ -3,11 +3,10 @@
   flex-direction: column;
   font-family: "Inter";
   height: 100px;
-  background-color: #5CDB95;
+  background-color: #1A1A1D;
 }
 
 .header__title {
-  margin: 0, auto;
   text-align: center;
   color: #EDF5E1;
 }
