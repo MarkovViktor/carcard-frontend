@@ -4,6 +4,7 @@
   font-family: "Inter";
   height: 100px;
   background-color: #1A1A1D;
+  border-bottom: solid rgb(92, 182, 92) 0.5px;
 }
 
 .header__title {

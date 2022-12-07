@@ -4,11 +4,11 @@
 }
 
 .main__button {
-  border-radius: 10px;
-  min-width: 200px;
-  min-height: 100px;
+  border-radius: 13px;
+  min-width: 100px;
+  min-height: 50px;
 }
 
 .main__button:hover {
-  background-color: antiquewhite;
+  background-color: rgb(141, 95, 25);
 }

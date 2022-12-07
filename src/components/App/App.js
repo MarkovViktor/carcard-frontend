@@ -1,21 +1,22 @@
 import './App.css';
+import React from "react";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 
 
 function App() {
-
   function handleKeys() {
-
+    
+    console.log(button);
   }
 
   return (
     <div className="App">
       <Header></Header>
-      <Main>
+      <Main
         handleKeys={handleKeys}
-      </Main>
+      />
       <Footer></Footer>
         {/* <Switch>
           <Route exact path="/">
