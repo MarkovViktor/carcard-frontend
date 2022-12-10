@@ -7,8 +7,7 @@ import Footer from "../Footer/Footer";
 
 function App() {
   function handleKeys() {
-    
-    console.log(button);
+    console.log(document);
   }
 
   return (
