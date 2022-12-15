@@ -8,6 +8,8 @@ import Footer from "../Footer/Footer";
 function App() {
   function handleKeys() {
     console.log(document);
+    // document.main.label.classList.add('remove');
+    
   }
 
   return (

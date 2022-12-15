@@ -4,7 +4,7 @@ import "./Main.css";
 export default function Main({handleKeys}) {
   return (
     <main className="Main">
-      <button className="main__button" onClick={handleKeys}>Button</button>
+      <label className="main__label" onClick={handleKeys}>Button</label>
     </main>
   );
 }
