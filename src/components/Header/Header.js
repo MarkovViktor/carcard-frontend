@@ -1,9 +1,11 @@
 import "./Header.css";
+import headerImg from '../../images/header-img.jpg';
 
 function Header() {
   return (
     <header className="Header">
-      <h1 className="header__title">Тренировка навыков</h1>
+      <img className="header__bg-img" src={headerImg} alt="Фон из облаков" />
+      <h1 className="header__title">Автомобильные</h1>
     </header>
   );
 }
