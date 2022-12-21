@@ -23,20 +23,6 @@ function App() {
           <Route exact path="/">
             <Main />
           </Route>
-
-          {loggedIn && (
-            <ProtectedRoute
-            />
-          )}
-
-          {loggedIn && (
-            <ProtectedRoute
-            />
-          )}
-
-          {loggedIn && (
-            <ProtectedRoute
-            />
           )}
           <Route path="*">
             <NotFound />

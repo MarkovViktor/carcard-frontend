@@ -8,7 +8,8 @@
 
 .header__title {
   text-align: center;
-  color: #6d34f3;
+  color: #2555bd;
+  text-shadow:  3px 4px 4px #d8e2ee;
 }
 
 .header__bg-img {
@@ -19,4 +20,14 @@
   object-position: center;
   position: absolute;
   z-index: -1;
+}
+
+.header__banner_button {
+  text-decoration: none;
+  background-color: #1c58a1;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: aliceblue;
 }
