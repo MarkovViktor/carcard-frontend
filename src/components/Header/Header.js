@@ -10,7 +10,7 @@ function Header() {
         <img className="header__banner_img" src={bannerImg} alt="Автовизитка" />  
         <div className="header__banner_buy">
           <h1 className="header__title">АВТОВИЗИТКА </h1>
-          <a href="" className="header__banner_button">Изготовить</a>
+          <a href="Build" className="header__banner_button">Изготовить</a>
         </div>
       </div>
     </header>
