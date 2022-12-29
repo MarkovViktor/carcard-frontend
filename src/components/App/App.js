@@ -18,18 +18,18 @@ function App() {
 
   return (
     <div className="App">
-      <Routes>
-        <Route exact path="/">
+      {/* <Routes>
+        <Route exact path="/"> */}
           <Header></Header>
           <Main
             handleKeys={handleKeys}
           />
           <Footer></Footer>
-        </Route>
+        {/* </Route>
         <Route path="/build">
           <Build />
         </Route>
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
