@@ -4,7 +4,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <section className="About">
+    <section className="About" id="about">
       <h2>Изготовление парковочной автовизитки</h2>
       <p>ааааааааааааааа аааааааааааа ааааааааааааа ааааааааааааа
         ааааааааааа ааааааааааааа аааааааааааааа аааааааааааааа
