@@ -5,8 +5,9 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  background-color: rgb(234, 240, 152);
+  background-color: #001f1e;
   height: 100vh;
+  color: white;
 }
 
 .about__img {
@@ -18,5 +19,8 @@
   margin: 0;
   padding: 0;
   border-radius: 12px;
-  box-shadow:  3px 4px 5px #8d8d8d;
-}  
+}
+
+.about__text {
+  width: 65%;
+}

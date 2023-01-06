@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="Footer">
-      <h3 className="footer__title" >markov viktor</h3>
+      <a target='blank' href="https://github.com/MarkovViktor" className="footer__title" >markov viktor</a>
     </footer>
   );
 }

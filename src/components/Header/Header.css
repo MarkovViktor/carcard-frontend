@@ -20,8 +20,7 @@
 
 .header__title {
   text-align: center;
-  color: #2555bd;
-  text-shadow:  3px 4px 4px #d8e2ee;
+  color: 	#1D7373;
 }
 
 .header__bg-img {
@@ -36,12 +35,27 @@
 
 .header__banner_button {
   text-decoration: none;
-  background-color: #1c58a1;
+  background-color: #86c984;
   border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 15px 25px;
   font-weight: 600;
   font-size: 1rem;
-  color: aliceblue;
+  color: #1D7373;
+}
+
+.header__banner_button:hover {
+  animation: 2s ease-in-out infinite scale-animation;
+}
+@keyframes scale-animation {
+  from {
+      transform: scale(.85);
+  }
+  50% {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(.85);
+  }
 }
 
 .header__banner_buy {
@@ -63,4 +77,19 @@
   margin: 0;
   padding: 0;
   mix-blend-mode: darken;
+}
+
+.header__banner_img:hover {
+  animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+}
+@keyframes trambling-animation {
+  0%, 50%, 100% {
+      transform: rotate(0deg);
+  }
+  10%, 30% {
+      transform: rotate(-5deg);
+  }
+  20%, 40% {
+      transform: rotate(5deg);
+  }
 }
