@@ -76,7 +76,7 @@
 }
 
 .header__banner_button:hover {
-  animation: 0.6s 1 scale-animation;
+  animation: 1s 1 scale-animation;
 }
 @keyframes scale-animation {
   from {

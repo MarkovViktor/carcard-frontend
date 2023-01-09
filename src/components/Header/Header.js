@@ -22,7 +22,7 @@ function Header() {
         <img className="header__banner_img" src={bannerImg} alt="Автовизитка" />  
         <div className="header__banner_buy">
           <h1 className="header__title">Автовизитка </h1>
-          <a href="#order" className="header__banner_button">Изготовить</a>
+          <a href="#order" className="header__banner_button">Заказать</a>
         </div>
       </div>
     </header>

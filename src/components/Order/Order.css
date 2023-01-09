@@ -15,23 +15,64 @@
   width: 70%;
 }
 
+.order__price {
+  width: 70%;
+  font-size: calc(100vw / 48.8888);
+  color: #223ea1;
+  font-weight: 600;
+}
+
 .order__logo_img {
   mix-blend-mode: darken;
   width: 20%;
   height: 150px;
-  min-width: 94px;
+  min-width: 209px;
+}
+
+.order__contact {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  font-size: calc(100vw / 56.8888);
+}
+
+.order__contact_networck {
+  font-size: calc(100vw / 33.3008);
+  color: #747769;
+}
+
+.order__contact_number {
+  text-decoration: none;
+  font-size: calc(100vw / 56.3008);
+  display: flex;
+}
+
+.order__contact_phone {
+  margin: 17px 0 0 15px;
+  color: #747769;
+  font-size: calc(100vw / 56.8888);
+}
+
+.order__contact_logo {
+  margin: 10px 0 0 0;
 }
 
 .order__text {
   margin: 0 auto;
+  font-size: calc(100vw / 56.8888);
 }
 
 @media screen and ( max-width: 770px ) {
   .order__container {
-   flex-direction: column; 
+    flex-direction: column; 
   }
 
   .order__logo_img {
     align-self: center;
+  }
+
+  .order__contact_logo {
+    max-width: 25px;
+    max-height: 25px;
   }
 }  

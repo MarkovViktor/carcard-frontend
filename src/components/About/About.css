@@ -24,4 +24,5 @@
 .about__text {
   width: 65%;
   margin-left: 7vh;
+  font-size: calc(100vw / 56.8888);
 }
