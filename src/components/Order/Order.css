@@ -1,0 +1,37 @@
+.Order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+}
+
+.order__container {
+  display: flex;
+  width: 70%;
+}
+
+.order__logo_img {
+  mix-blend-mode: darken;
+  width: 20%;
+  height: 150px;
+  min-width: 94px;
+}
+
+.order__text {
+  margin: 0 auto;
+}
+
+@media screen and ( max-width: 770px ) {
+  .order__container {
+   flex-direction: column; 
+  }
+
+  .order__logo_img {
+    align-self: center;
+  }
+}  

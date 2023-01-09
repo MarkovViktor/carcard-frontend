@@ -8,16 +8,13 @@ function Header() {
     <header className="Header" id="header">
       <img className="header__bg-img" src={headerImg} alt="Фон сайта" />
       <nav className="header__nav">
-          <img className="header__logo_img" src={headerLogo} alt="Логотип" />
-          <ul>
+            <img className="header__logo_img" src={headerLogo} alt="Логотип" />
+          <ul className="header__nav-list">
             <li className="header__nav-item">
-              <a href="header">Главная</a>
+              <a className="header__nav-item_a" href="#about">Производство</a>
             </li>
             <li className="header__nav-item">
-              <a href="#about">Производство</a>
-            </li>
-            <li className="header__nav-item">
-              <a href="#about">Заказать</a>
+              <a className="header__nav-item_a" href="#order">Заказать</a>
             </li>
           </ul>
       </nav>
@@ -25,7 +22,7 @@ function Header() {
         <img className="header__banner_img" src={bannerImg} alt="Автовизитка" />  
         <div className="header__banner_buy">
           <h1 className="header__title">Автовизитка </h1>
-          <a href="#about" className="header__banner_button">Изготовить</a>
+          <a href="#order" className="header__banner_button">Изготовить</a>
         </div>
       </div>
     </header>

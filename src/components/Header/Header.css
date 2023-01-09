@@ -4,12 +4,36 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
+  background-size: contain;
 }
 
 .header__nav {
   margin: 0;
   display: flex;
 }
+
+.header__nav-list {
+  display: flex;
+  gap: 3vh;
+}
+
+.header__nav-item {
+  list-style: none;
+}
+
+.header__nav-item_a {
+  list-style: none;
+  text-decoration: none;
+  font-size: calc(70vw / 25.6125);
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 4px 4px #00000025;
+}
+
+.header__nav-item_a:hover {
+  opacity: 0.6;
+}
+
 
 .header__banner {
   top: calc(100vw / 7.1859);
@@ -86,9 +110,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 0 0 0 20px;
   padding: 0;
-  border-radius: 20px;
+  border-radius: 10px;
   /* mix-blend-mode: darken; */
 }
 
