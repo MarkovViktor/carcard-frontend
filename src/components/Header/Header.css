@@ -19,11 +19,13 @@
   text-align: center;
   align-items: center;
   margin: auto;
+  padding: 200px 0 0 0;
 }
 
 .header__title {
   text-align: center;
-  color: 	#1D7373;
+  color: 	white;
+  text-shadow: 3px 4px 4px #00000025;
   text-transform: uppercase;
   font-size: calc(100vw / 25.6125);
 }
@@ -86,7 +88,8 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  mix-blend-mode: darken;
+  border-radius: 20px;
+  /* mix-blend-mode: darken; */
 }
 
 .header__banner_img:hover {

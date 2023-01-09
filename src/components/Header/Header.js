@@ -5,22 +5,22 @@ import headerLogo from '../../images/header-logo.jpg';
 
 function Header() {
   return (
-    <header className="Header">
+    <header className="Header" id="header">
       <img className="header__bg-img" src={headerImg} alt="Фон сайта" />
       <nav className="header__nav">
           <img className="header__logo_img" src={headerLogo} alt="Логотип" />
           <ul>
-            <li>
-              <a>Главная</a>
+            <li className="header__nav-item">
+              <a href="header">Главная</a>
             </li>
-            <li>
-              <a>Производство</a>
+            <li className="header__nav-item">
+              <a href="#about">Производство</a>
             </li>
-            <li>
-              <a>Заказать</a>
+            <li className="header__nav-item">
+              <a href="#about">Заказать</a>
             </li>
           </ul>
-      </nav>  
+      </nav>
       <div className="header__banner">
         <img className="header__banner_img" src={bannerImg} alt="Автовизитка" />  
         <div className="header__banner_buy">
