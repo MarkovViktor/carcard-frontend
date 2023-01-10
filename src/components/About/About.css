@@ -21,12 +21,32 @@
   border-radius: 12px;
 }
 
-.about__text {
-  width: 65%;
-  margin-left: 7vh;
-  font-size: calc(100vw / 56.8888);
+.about__title {
+  font-size: calc(100vw / 20.8888);
 }
 
-.about__title {
-  font-size: calc(100vw / 44.8888);
+.about__text {
+  width: 65%;
+  margin-left: 4vh;
+  font-size: calc(100vw / 28.8888);
 }
+
+@media screen and ( min-width: 800px ) {
+  .about__title {
+    font-size: calc(100vw / 35.8888);
+  }
+
+  .about__text {
+    font-size: calc(100vw / 45.8888);
+  }
+}  
+
+@media screen and ( min-width: 1400px ) {
+  .about__title {
+    font-size: calc(100vw / 60.8888);
+  }
+
+  .about__text {
+    font-size: calc(100vw / 70.8888);
+  }
+}  

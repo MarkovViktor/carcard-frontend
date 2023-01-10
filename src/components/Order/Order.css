@@ -17,7 +17,7 @@
 
 .order__price {
   width: 70%;
-  font-size: calc(100vw / 48.8888);
+  font-size: calc(100vw / 35.8888);
   color: #223ea1;
   font-weight: 600;
 }
@@ -29,6 +29,11 @@
   min-width: 209px;
 }
 
+.order__text {
+  margin: 0 auto;
+  font-size: calc(100vw / 30.8888);
+}
+
 .order__contact {
   display: flex;
   flex-direction: column;
@@ -37,7 +42,7 @@
 }
 
 .order__contact_networck {
-  font-size: calc(100vw / 33.3008);
+  font-size: calc(100vw / 30.3008);
   color: #747769;
 }
 
@@ -48,18 +53,18 @@
 }
 
 .order__contact_phone {
-  margin: 17px 0 0 15px;
+  margin: 14px 0 0 15px;
   color: #747769;
-  font-size: calc(100vw / 56.8888);
+  font-size: calc(100vw / 30.8888);
+  font-weight: 500;
 }
 
 .order__contact_logo {
   margin: 10px 0 0 0;
 }
 
-.order__text {
-  margin: 0 auto;
-  font-size: calc(100vw / 56.8888);
+.order__contact_text {
+  font-size: calc(100vw / 30.8888); 
 }
 
 @media screen and ( max-width: 770px ) {
@@ -74,5 +79,37 @@
   .order__contact_logo {
     max-width: 25px;
     max-height: 25px;
+  }
+}  
+
+@media screen and ( min-width: 800px ) {
+  .order__contact_text {
+    font-size: calc(100vw / 45.8888); 
+  }
+
+  .order__text {
+    font-size: calc(100vw / 45.8888);
+  }
+}  
+
+@media screen and ( min-width: 1000px ) {
+  .order__contact_text {
+    font-size: calc(100vw / 65.8888); 
+  }
+
+  .order__text {
+    font-size: calc(100vw / 65.8888);
+  }
+
+  .order__price {
+    font-size: calc(100vw / 50.8888);
+  }
+
+  .order__contact_phone {
+    font-size: calc(100vw / 50.8888);
+  }
+
+  .order__contact_networck {
+    font-size: calc(100vw / 50.8888);
   }
 }  

@@ -29,7 +29,7 @@ export default function Order() {
           <img className="order__contact_logo" src={telegramLogo} alt="Написать в Telegram" />
           <p className="order__contact_phone">+7 999 125 1255</p>
         </a>
-        <p>
+        <p className="order__contact_text">
           Для заказа и уточнения деталей звоните по телефону или пишите в WhatsApp или Telegram
         </p>
       </div>

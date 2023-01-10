@@ -17,6 +17,10 @@
 
 @media screen and ( max-width: 770px ) {
   .Footer {
-    height: calc(100vw / 40.8888);
+    height: calc(100vw / 20.8888);
+  }
+
+  .footer__title {
+    font-size: 12px;
   }
 }  

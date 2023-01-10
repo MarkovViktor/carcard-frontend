@@ -4,7 +4,6 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  background-size: contain;
 }
 
 .header__nav {
@@ -117,7 +116,7 @@
 }
 
 .header__banner_img:hover {
-  animation: 1.2s ease-in-out 0s normal none infinite running trambling-animation;
+  animation: 1.2s ease-in-out 0s normal none 1 running trambling-animation;
 }
 @keyframes trambling-animation {
   0%, 50%, 100% {
