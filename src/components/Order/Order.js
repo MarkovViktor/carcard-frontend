@@ -15,7 +15,7 @@ export default function Order() {
           Логотип телефонной трубки перед номером так-же может быть изменен по вашему желанию.<br />
         </p>
       </div>
-      <p className="order__price">Цена 500 рублей + цена доставки любой компанией</p>
+      <p className="order__price">Цена 700 рублей + цена доставки любой компанией</p>
       <div className="order__contact">
         <h2 className="order__contact_networck">
           С нами можно связаться:

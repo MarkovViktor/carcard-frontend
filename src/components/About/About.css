@@ -26,3 +26,7 @@
   margin-left: 7vh;
   font-size: calc(100vw / 56.8888);
 }
+
+.about__title {
+  font-size: calc(100vw / 44.8888);
+}
