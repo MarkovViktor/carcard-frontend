@@ -1,5 +1,5 @@
 import "./Header.css";
-import headerImg from '../../images/header-img.png';
+import headerImg from '../../images/header-img.webp';
 import bannerImg from '../../images/banner-img.png';
 import headerLogo from '../../images/header-logo.jpg';
 
