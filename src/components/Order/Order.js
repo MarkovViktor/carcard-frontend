@@ -11,14 +11,21 @@ export default function Order() {
         <img className="order__logo_img" src={headerLogo} alt="Логотип" />
         <p className="order__text">
           Изготовим и отправим вам автовизитку в течении 1-2 дней.<br />
-          По вашему желанию можем сделать разные углы наклона, толщину цифр и площадки.<br /> 
-          Логотип телефонной трубки перед номером так-же может быть изменен по вашему желанию.<br />
+          По вашему желанию можем сделать другой логотип перед номером, 
+          разные углы наклона, толщину цифр и площадки.<br /> 
         </p>
       </div>
-      <p className="order__price">Цена 700 рублей + цена доставки любой компанией</p>
+      <p className="order__price">
+        Цена визитки 700 рублей.<br />
+        При заказе от 3 штук цена 550р штука.<br />
+        При заказе от 10 штук цена 400р штука.<br />
+          <span className="order__price_delivered">Доставка транспортной компанией оплачивается отдельно.<br />
+            Самовывоз из г Геленджик. В Новороссийск привезем по договоренности
+          </span>
+      </p>
       <div className="order__contact">
         <h2 className="order__contact_networck">
-          С нами можно связаться:
+          Для заказа напишите или позвоните нам:
         </h2>
         <a className="order__contact_number" title="Whatsapp" target="blank" href="https://wa.me/79991251255">
           <img className="order__contact_logo" src={whatsappLogo} alt="Написать в Whatsapp" />
@@ -30,7 +37,7 @@ export default function Order() {
           <p className="order__contact_phone">+7 999 125 1255</p>
         </a>
         <p className="order__contact_text">
-          Для заказа и уточнения деталей звоните по телефону или пишите в WhatsApp или Telegram
+          Для уточнения деталей звоните по телефону или пишите в WhatsApp или Telegram
         </p>
       </div>
 

@@ -4,6 +4,7 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
+  min-height: 610px;
 }
 
 .header__nav {
@@ -27,10 +28,12 @@
   font-weight: 600;
   color: rgb(255, 255, 255);
   text-shadow: 3px 4px 4px #00000025;
+  transition: .7s;
 }
 
 .header__nav-item_a:hover {
   opacity: 0.6;
+  transition: .1s;
 }
 
 
@@ -61,6 +64,7 @@
   object-position: center;
   position: absolute;
   z-index: -1;
+  min-height: 610px;
 }
 
 .header__banner_button {
@@ -70,7 +74,7 @@
   padding: 0.5rem 0.8rem;
   font-weight: 600;
   font-size: calc(70vw / 25.6125);
-  color: #1D7373;
+  color: #073a3a;
   width: fit-content;
 }
 
@@ -112,7 +116,6 @@
   margin: 0 0 0 20px;
   padding: 0;
   border-radius: 10px;
-  /* mix-blend-mode: darken; */
 }
 
 .header__banner_img:hover {
@@ -138,5 +141,9 @@
 
   .header__banner_buy {
     margin: 20px 0 0 ;
+  }
+
+  .header__nav-item_a {
+    font-size: calc(70vw / 15.6125);
   }
 }

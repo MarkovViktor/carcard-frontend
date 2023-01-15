@@ -3,18 +3,13 @@ import React from "react";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
-import Build from "../Build/Build";
-import {
-  Route,
-  Routes,
-} from "react-router-dom";
 
 
 function App() {
-  function handleKeys() {
-    console.log(document);
+  // function handleKeys() {
+    // console.log(document);
     // document.main.label.classList.add('remove');
-  }
+  // }
 
   return (
     <div className="App">
@@ -22,7 +17,7 @@ function App() {
         <Route exact path="/"> */}
           <Header></Header>
           <Main
-            handleKeys={handleKeys}
+            // handleKeys={handleKeys}
           />
           <Footer></Footer>
         {/* </Route>
