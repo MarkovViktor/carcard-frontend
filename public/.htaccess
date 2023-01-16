@@ -1,0 +1,6 @@
+<ifModule mod_headers.c>
+	#кэшировать флэш и изображения на месяц
+	<FilesMatch "\.(flv|webp|swf|ico|gif|jpg|jpeg|png)$">
+		Header set Cache-Control "max-age=43200"
+	</FilesMatch>
+</IfModule>
