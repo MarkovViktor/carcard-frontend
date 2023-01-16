@@ -1,12 +1,12 @@
 import "./Header.css";
-import headerImg from '../../images/header-img.png';
+// import headerImg from '../../images/header-img.png';
 import bannerImg from '../../images/banner-img.png';
 import headerLogo from '../../images/header-logo.jpg';
 
 function Header() {
   return (
     <header className="Header" id="header">
-      <img className="header__bg-img" src={headerImg} alt="Фон сайта" />
+      {/* <img className="header__bg-img" src={headerImg} alt="Фон сайта" /> */}
       <nav className="header__nav">
             <img className="header__logo_img" src={headerLogo} alt="Логотип" />
           <ul className="header__nav-list">

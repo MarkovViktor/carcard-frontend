@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
   min-height: 610px;
+  background: url(../../images/header-img.webp);
+  background-position: center;
+  background-size: cover;
 }
 
 .header__nav {
