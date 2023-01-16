@@ -1,7 +1,7 @@
 import "./Header.css";
 // import headerImg from '../../images/header-img.png';
-import bannerImg from '../../images/banner-img.png';
-import headerLogo from '../../images/header-logo.jpg';
+import bannerImg from '../../images/banner-img.webp';
+import headerLogo from '../../images/header-logo.webp';
 
 function Header() {
   return (

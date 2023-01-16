@@ -106,7 +106,7 @@
 }
 
 .header__logo_img {
-  mix-blend-mode: darken;
+  mix-blend-mode: multiply;
   width: 20%;
 }
 

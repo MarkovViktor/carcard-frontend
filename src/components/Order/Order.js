@@ -1,5 +1,5 @@
 import React from "react";
-import headerLogo from '../../images/header-logo.jpg';
+import headerLogo from '../../images/header-logo.webp';
 import whatsappLogo from '../../images/whatsapp.svg';
 import telegramLogo from '../../images/telegram.svg';
 import "./Order.css";
@@ -36,9 +36,6 @@ export default function Order() {
           <img className="order__contact_logo" src={telegramLogo} alt="Написать в Telegram" />
           <p className="order__contact_phone">+7 999 125 1255</p>
         </a>
-        <p className="order__contact_text">
-          Для уточнения деталей звоните по телефону или пишите в WhatsApp или Telegram
-        </p>
       </div>
 
     </section>
