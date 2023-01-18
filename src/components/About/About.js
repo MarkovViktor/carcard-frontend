@@ -12,6 +12,7 @@ export default function About() {
         Для установки на торпедо снизу визитки есть клеящаяся основа<br />
       </p>
       <img className="about__img" src={aboutImg} alt="Пример автовизитки" />
+        <a href="#order" className="about__button">Купить</a>
     </section>
   );
 }
