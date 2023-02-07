@@ -79,21 +79,12 @@
   font-size: calc(70vw / 25.6125);
   color: #073a3a;
   width: fit-content;
+  transition: .7s;
 }
 
 .header__banner_button:hover {
-  animation: 1s 1 scale-animation;
-}
-@keyframes scale-animation {
-  from {
-      transform: scale(1);
-  }
-  50% {
-      transform: scale(1.25);
-  }
-  to {
-      transform: scale(1);
-  }
+  opacity: 0.7;
+  transition: .1s;
 }
 
 .header__banner_buy {
